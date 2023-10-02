@@ -1,0 +1,280 @@
+*{
+    padding: 0%;
+    margin:0;
+    font-family: sans-serif, 'poppins' ;
+}
+
+
+.navbar{
+    padding: 0;
+    background-color: #18181B;
+    width: auto;
+    height: 60px;
+
+
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    padding:5px;
+    float: right;
+    
+}
+.navlist li{
+    padding: 15px;
+    
+   
+}
+#fet-down{
+    position:relative;
+    right: 18px;
+    padding: 10px 0px;
+    margin: 0;
+}
+
+#getright{
+    position:relative;
+    top: 4px;
+    right: 33px;
+    padding: 10px 0px;
+    margin: 0;
+}
+.navlist li input{
+    position: relative;
+    top: -5px;
+    width: 100px;
+    height: 32px;
+    background-color:rgb(45, 120, 240);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.navlist li input:hover{
+    background-color:#fff;
+    color:#0D0D0D;
+}
+#play{
+    position: relative; 
+    top: 20px;
+    left: 30px;
+    background: linear-gradient(0deg, #FF485B, #FF485B),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 0;
+    border-radius: 15px;
+}
+/* Media Query for small screen */
+@media only screen and (max-width: 768px){
+    .navbar{
+        width:100% ;
+    }
+}
+
+.vido{
+    position: absolute;
+    top: 25px;
+    /* margin: 10px; */
+    left: 58px;
+    list-style: none; 
+}
+.red{
+    color:#FF485B ;
+}
+/* hr bar */
+.border{
+    position:absolute;
+    width: 900px;
+    top: 90px;
+    left: 210px;
+    /* background-color: #0D0D0D; */
+    border:none;
+    z-index: 5px;
+    color:white;
+}
+.landing{
+    padding:0;
+    margin: 0;
+    width: auto;
+    height: 680px;
+    background-color:#0D0D0D;
+    color: #fff;
+
+}
+
+h1{
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    text-align: center;
+    /* align-items: center; */
+    font-size: 70px;
+}
+.colabs{
+    position: absolute;
+    top: 400px;
+    left: 310px;
+    /* align-items: center; */
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100,100,lighter;
+    
+}
+.action-btn{
+    position: relative;
+    top: 450px;
+    left: 610px;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    border-radius: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.action-btn:hover{
+    background-color:dodgerblue;
+    color: #fff;
+}
+/* comment -section */
+.dashboard-display{
+    width: auto;
+    height: 700px;
+    background-color: #0D0D0D;
+
+}
+.share-img{
+    position:absolute;
+    left: 50px;
+    padding: 20px 20px;
+
+}
+.comment{
+    width: auto;
+    height: 700px;
+    background-color:black ;
+
+}
+.endlessFrame{
+    width: auto;
+    height: 660px;
+    background-color: black;
+    color: #fff;
+}
+.lady-image{
+    float: right;
+}
+.rect-content{
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+.end{
+    color: #53DACF;
+    font-family:'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.perfect{
+    position: relative;
+    top: 30px;
+    font-family:'Poppins';
+    font-size: 50px;
+    font-weight: 400;
+    
+    /* padding: 0; */
+}
+.animate{
+    position: relative;
+    top: 60px;
+    font-family:'Poppins';
+    font-size: 16px;
+    font-weight: 400; 
+    color:dimgray; 
+}
+
+
+
+
+.convert{
+    position: relative;
+    top: 120px;
+    font-family:'Poppins';
+    font-size: 16px;
+    font-weight: 400; 
+    color:dimgray; 
+}
+.easily{
+    position: relative;
+    top: 180px;
+    font-family:'Poppins';
+    font-size: 16px;
+    font-weight: 400; 
+    color:dimgray; 
+}
+
+
+.share-link{
+    position: relative;
+    top: 230px;
+    font-family:'Poppins';
+    font-size: 16px;
+    font-weight: 400; 
+    color: #53DACF;
+}
+#arrow{
+    position: relative;
+    margin: 0;
+    padding: 0%;
+    top:7px;
+    left: 20px;
+    /* size: 5cap; */
+}
+.template{
+    width:auto;
+    height:690px;
+    background-color:black;
+    color:#ffff;
+}
+.use{
+    position: relative;
+    text-align: center;
+    top: 25px;
+    font-size: 40px;
+}
+.image-box{
+    position: relative;
+    top: 40px;
+    
+    margin: 80px;
+    
+    
+}
+.image1b, .image2b, .image3b,.image4b{
+    padding: 10px;
+
+}
+.goto{
+    position:relative;
+    top: 70px;
+    left: 600px;
+    width:140px;
+    height:30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1D4ED8;
+    color:#fff;
+    font-family: "Poppins";
+
+}
+#lessthan{
+    position: relative;
+    top: 78px;
+    left: 578px;
+
+
+}
